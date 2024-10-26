@@ -46,7 +46,7 @@ This application is a real-time data processing system to monitor weather condit
    npm install
    
    ```
-3. **run live server
+3. **run live server**
 
    ```bash
    npm install http-server -g
