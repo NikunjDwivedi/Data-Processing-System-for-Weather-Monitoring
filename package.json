@@ -5,7 +5,8 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node script.js",
+    "start": "",
+    "scripts": "http-server -p 8080",
     "dev": "nodemon script.js",
     "lint": "eslint .",
     "format": "prettier --write ."
