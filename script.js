@@ -205,17 +205,17 @@ let weather = {
   
     // Change the video source based on weather conditions
     if (weatherId >= 200 && weatherId < 330) {
-      bgVideo.src = "./videos/thunderstorm.mp4"; // Thunderstorm video
+      bgVideo.src = "/videos/thunderstorm.mp4"; // Thunderstorm video
     } else if (weatherId >= 330 && weatherId < 510) {
-      bgVideo.src = "./videos/drizzle.mp4"; // Drizzle video
+      bgVideo.src = "/videos/drizzle.mp4"; // Drizzle video
     } else if (weatherId >= 510 && weatherId < 600) {
-      bgVideo.src = "./videos/rain.mp4"; // Rain video
+      bgVideo.src = "/videos/rain.mp4"; // Rain video
     } else if (temperature < 10) {
-      bgVideo.src = "./videos/snow.mp4"; // Video for snowing/freezing
+      bgVideo.src = "/videos/snow.mp4"; // Video for snowing/freezing
     } else if (temperature >= 10 && temperature <= 30) {
-      bgVideo.src = "./videos/pleasant.mp4"; // Video for pleasant weather
+      bgVideo.src = "/videos/pleasant.mp4"; // Video for pleasant weather
     } else if (temperature > 30) {
-      bgVideo.src = "./videos/hot.mp4"; // Video for hot weather
+      bgVideo.src = "/videos/hot.mp4"; // Video for hot weather
     }
   
     // Update the video source to the final selected source
