@@ -206,9 +206,9 @@ let weather = {
     // Change the video source based on weather conditions
     if (weatherId >= 200 && weatherId < 330) {
       bgVideo.src = "./videos/thunderstorm.mp4"; // Thunderstorm video
-    } else if (weatherId >= 330 && weatherId < 480) {
+    } else if (weatherId >= 330 && weatherId < 510) {
       bgVideo.src = "./videos/drizzle.mp4"; // Drizzle video
-    } else if (weatherId >= 480 && weatherId < 600) {
+    } else if (weatherId >= 510 && weatherId < 600) {
       bgVideo.src = "./videos/rain.mp4"; // Rain video
     } else if (temperature < 10) {
       bgVideo.src = "./videos/snow.mp4"; // Video for snowing/freezing
