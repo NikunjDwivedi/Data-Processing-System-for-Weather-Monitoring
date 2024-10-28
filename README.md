@@ -70,6 +70,7 @@ Action: Displays a video of thunderstorms to visually represent intense stormy w
 1. **Clone the Repository**
    ```bash
    git clone "https://github.com/NikunjDwivedi/Data-Processing-System-for-Weather-Monitoring.git"
+   cd Data-Processing-System-for-Weather-Monitoring
    ```
 
 2. **Install Backend Dependencies**
