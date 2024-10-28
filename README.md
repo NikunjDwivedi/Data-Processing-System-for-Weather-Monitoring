@@ -69,8 +69,7 @@ Action: Displays a video of thunderstorms to visually represent intense stormy w
 
 1. **Clone the Repository**
    ```bash
-   git clone ""
-   cd App2-Weather-app
+   git clone "https://github.com/NikunjDwivedi/Data-Processing-System-for-Weather-Monitoring.git"
    ```
 
 2. **Install Backend Dependencies**
